@@ -1,0 +1,612 @@
+[
+  {
+      "section": "Domestic Business Incorporation",
+      "services": [
+          {
+              "title": "Public Limited Company",
+              "content": "A Public Limited Company (PLC) is registered under the Companies Act, 2013, enabling it to raise capital by issuing shares to the public. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 3 directors, 7 shareholders, and a registered office in India, no minimum capital requirement, <span class='font-semibold'>LIMITED LIABILITY</span> for shareholders, and optional <span class='font-semibold'>STOCK EXCHANGE LISTING</span>. It must comply with SEBI, MCA, and Companies Act regulations, including audits and financial disclosures.",
+              "image": "/svgs/services/public_limited_company.svg"
+          },
+          {
+              "title": "Private Limited Company",
+              "content": "A Private Limited Company (Pvt Ltd) is a registered entity under the Companies Act, 2013, offering <span class='font-semibold'>LIMITED LIABILITY</span> to shareholders and restricting public share transfers. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 2 directors, 2 shareholders, and a registered office in India, <span class='font-semibold'>NO PUBLIC TRADING</span> of shares, and mandatory <span class='font-semibold'>COMPLIANCE</span> with annual filings, tax returns, and audits with the MCA. It is ideal for startups and growing businesses.",
+              "image": "/svgs/services/private_limited_company.svg"
+          },
+          {
+              "title": "One Person Company",
+              "content": "A One Person Company (OPC) is registered under the Companies Act, 2013, allowing a single entrepreneur to operate with <span class='font-semibold'>LIMITED LIABILITY</span> while enjoying corporate benefits. Key features include <span class='font-semibold'>SINGLE OWNER</span> (one director and one shareholder), no <span class='font-semibold'>PUBLIC TRADING</span> of shares, and <span class='font-semibold'>COMPLIANCE</span> with annual MCA filings, tax returns, and audits (if turnover exceeds ₹2 crore). It is ideal for small businesses and solo entrepreneurs.",
+              "image": "/svgs/services/one_person_company.svg"
+          },
+          {
+              "title": "Section 8 Company",
+              "content": "A Section 8 Company is a nonprofit registered under the Companies Act, 2013, formed for charitable purposes like education, arts, or social welfare. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 2 directors and 2 shareholders (private) or 3 directors and 7 shareholders (public), <span class='font-semibold'>NO MINIMUM CAPITAL</span> requirement, <span class='font-semibold'>LIMITED LIABILITY</span> for members, and <span class='font-semibold'>TAX BENEFITS</span> under Section 12A & 80G. It must comply with MCA regulations and use profits solely for charitable purposes.",
+              "image": "/svgs/services/section_8_company.svg"
+          },
+          {
+              "title": "Nidhi Company Incorporation",
+              "content": "A Nidhi Company is a non-banking financial company (NBFC) registered under the Companies Act, 2013, aimed at promoting thrift and saving among members. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 3 directors and 7 members, <span class='font-semibold'>MEMBERSHIP</span> restricted to members for borrowing and lending, <span class='font-semibold'>LIMITED LIABILITY</span> for shareholders, and <span class='font-semibold'>REGULATION</span> under MCA and RBI guidelines. It cannot engage in external business activities like trading or stock investments.",
+              "image": "/svgs/services/nidhi_company_incorporation.svg"
+          },
+          {
+              "title": "Liaison Office, Project Office & Branch Office",
+              "content": "Foreign companies can set up <span class='font-semibold'>LIAISON OFFICE (LO)</span> for communication with Indian clients, without engaging in commercial activities, regulated by RBI. A <span class='font-semibold'>PROJECT OFFICE (PO)</span> is set up for specific projects, with activities limited to the project scope and closed after completion, also requiring RBI approval. A <span class='font-semibold'>BRANCH OFFICE (BO)</span> can engage in business activities like marketing and exports but cannot manufacture or process, needing RBI approval and possible additional permits.",
+              "image": "/svgs/services/liaison_office.svg"
+          },
+          {
+              "title": "Foreign Subsidiary",
+              "content": "A Foreign Subsidiary is an Indian company where the foreign parent holds more than 50% of the share capital. It operates as a separate entity but is controlled by the foreign company. Key features include <span class='font-semibold'>OWNERSHIP</span> of more than 50% by the foreign parent, compliance with the <span class='font-semibold'>COMPANIES ACT, 2013</span> and <span class='font-semibold'>FEMA</span>, ability to engage in lawful activities, and adherence to Indian <span class='font-semibold'>TAXATION</span> laws, including corporate tax, GST, and transfer pricing regulations.",
+              "image": "/svgs/services/foreign_subsidiary.svg"
+          },
+          {
+              "title": "Limited Liability Partnership (LLP)",
+              "content": "A Limited Liability Partnership (LLP) combines features of both a partnership and a company, governed by the LLP Act, 2008. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 2 partners, <span class='font-semibold'>LIMITED LIABILITY</span> protecting personal assets, a <span class='font-semibold'>FLEXIBLE STRUCTURE</span> in management and profit-sharing, and <span class='font-semibold'>TAXATION</span> at the individual level, avoiding double taxation. It requires annual filing of financial statements and returns with the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span>.",
+               "image": "/svgs/services/limited_liability_partnership.svg"
+          },
+          {
+              "title": "Sole Proprietorship",
+              "content": "A Sole Proprietorship is a simple business entity owned and managed by one individual, with full control. Key features include <span class='font-semibold'>SINGLE OWNER</span> having unlimited liability, meaning personal assets are at risk. It does not require <span class='font-semibold'>FORMAL REGISTRATION</span> but may need licenses like <span class='font-semibold'>GST REGISTRATION</span>. <span class='font-semibold'>TAXATION</span> is done under the owner's personal income tax, and <span class='font-semibold'>COMPLIANCE</span> is minimal, making it easy and cost-effective to set up and run.",
+              "image": "/svgs/services/sole_proprietorship.svg"
+          },
+          {
+              "title": "Society Registration",
+              "content": "A Society is a non-profit organization registered under the Societies Registration Act, 1860, for charitable, educational, or social purposes. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 7 members from India, formed for <span class='font-semibold'>CHARITABLE PURPOSES</span> like education or social welfare, and being a separate <span class='font-semibold'>LEGAL ENTITY</span>. It is eligible for <span class='font-semibold'>TAX EXEMPTION</span> under Section 12A and 80G, with compliance including annual filings and adherence to the Societies Registration Act.",
+              "image": "/svgs/services/society_registration.svg"
+          },
+          {
+              "title": "Trust Registration",
+              "content": "A Trust in India is a legal arrangement where a trustee holds assets for the benefit of beneficiaries, typically for charitable or social purposes. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of 1 trustee and a settlor, formed for <span class='font-semibold'>CHARITABLE PURPOSES</span> with no profit distribution, and being a separate <span class='font-semibold'>LEGAL ENTITY</span>. Public trusts can avail <span class='font-semibold'>TAX EXEMPTION</span> under Section 12A and 80G, with compliance including maintaining accounts and filing annual returns.",
+              "image": "/svgs/services/trust_registration.svg"
+          },
+          {
+              "title": "Partnership Firm",
+              "content": "A Partnership Firm is a business entity formed by two or more individuals to share profits and liabilities, governed by the Indian Partnership Act, 1932. Key features include <span class='font-semibold'>MINIMUM REQUIREMENTS</span> of at least 2 partners, <span class='font-semibold'>LIABILITY</span> being unlimited for partners, and the creation of a <span class='font-semibold'>PARTNERSHIP DEED</span>. It is taxed as a separate entity, with profits distributed to partners who pay taxes. <span class='font-semibold'>COMPLIANCE</span> includes GST registration (if applicable) and annual income tax filings.",
+              "image": "/svgs/services/partnership_firm.svg"
+          },
+          {
+              "title": "E-Commerce Business (POP UP)",
+              "content": "A POP-UP E-Commerce Business is a temporary online store used to promote specific products, seasonal items, or events. Key features include a <span class='font-semibold'>TEMPORARY SETUP</span> for short durations, hosted on platforms like Shopify or WooCommerce, and requires <span class='font-semibold'>BUSINESS REGISTRATION</span>. It is subject to <span class='font-semibold'>TAXATION & COMPLIANCE</span> with GST registration (if turnover exceeds ₹40 lakh) and income tax filings. A <span class='font-semibold'>PAYMENT GATEWAY</span> like Razorpay or Paytm is necessary for secure transactions.",
+              "image": "/svgs/services/partnership_firm.svg"
+          }
+      ]
+  },
+  {
+      "section": "Licenses & Registration",
+      "services": [
+          {
+              "title": "Rera License",
+              "content": "It is mandatory for real estate developers and agents in India, as per the Real Estate (Regulation and Development) Act, 2016. It ensures transparency, accountability, and protection for buyers. Developers must register their projects under <span class='font-semibold'>RERA</span> before advertising or selling properties. The license ensures <span class='font-semibold'>COMPLIANCE</span> with regulations, protects buyers from fraudulent practices, and guarantees timely delivery of projects. Failure to obtain a <span class='font-semibold'>RERA LICENSE</span> can lead to penalties and legal consequences.",
+              "image": "/svgs/services/rera_license.svg"
+          },
+          {
+              "title": "Digital Signature Certificate",
+              "content": "It is a secure digital key used for signing electronic documents and verifying the identity of the signer. In India, it is issued by Certifying Authorities under the <span class='font-semibold'>IT Act, 2000</span>. It is required for <span class='font-semibold'>ONLINE FILING</span> of documents with government authorities, such as company registration, income tax returns, and more. The DSC ensures <span class='font-semibold'>SECURITY</span>, authenticity, and <span class='font-semibold'>COMPLIANCE</span> with legal requirements for digital transactions.",
+              "image": "/svgs/services/digital_signature_certificate.svg"
+          },
+          {
+              "title": "Udyam/ MSME Registration",
+              "content": "It is a government initiative to promote Micro, Small, and Medium Enterprises (MSMEs) in India. It provides recognition and benefits such as easier access to loans, subsidies, and protection against delayed payments. The <span class='font-semibold'>REGISTRATION</span> is done online through the <span class='font-semibold'>UDYAM PORTAL</span> and requires basic business details. MSMEs with <span class='font-semibold'>TURNOVER</span> under ₹250 crore or investment in plant and machinery under ₹50 crore qualify. It helps businesses with <span class='font-semibold'>COMPLIANCE</span> and growth opportunities.",
+              "image": "/svgs/services/udyam_msme_registration.svg"
+          },
+          {
+              "title": "IEC [Import/Export Code]",
+              "content": "It is a mandatory registration for businesses involved in importing or exporting goods and services in India. Issued by the <span class='font-semibold'>Director General of Foreign Trade (DGFT)</span>, the IEC enables businesses to legally engage in international trade. It is required for customs clearance, shipping, and receiving payments. The registration process is simple and done online through the <span class='font-semibold'>DGFT PORTAL</span>, and businesses must comply with <span class='font-semibold'>TAXATION</span> and <span class='font-semibold'>REGULATORY</span> requirements for smooth operations.",
+              "image": "/svgs/services/iec_[import_export_code].svg"
+          },
+          {
+              "title": "Professional Tax",
+              "content": "It is a state-level tax levied on individuals and professionals earning income through employment, business, or profession. The <span class='font-semibold'>TAX</span> amount varies by state and is collected by local authorities. Employers are required to deduct <span class='font-semibold'>PROFESSIONAL TAX</span> from employees’ salaries, while self-employed individuals must pay it themselves. Registration with the <span class='font-semibold'>LOCAL TAX AUTHORITY</span> is mandatory for businesses, and timely payment is essential to avoid penalties and ensure <span class='font-semibold'>COMPLIANCE</span> with state laws.",
+              "image": "/svgs/services/professional_tax.svg"
+          },
+          {
+              "title": "PF Registration",
+              "content": "It is mandatory for establishments with 20 or more employees, according to the <span class='font-semibold'>EPF & MP Act, 1952</span>. It ensures employees' long-term financial security by contributing a portion of their salary to the <span class='font-semibold'>EMPLOYEES' PROVIDENT FUND</span>. Employers and employees both contribute to the fund. <span class='font-semibold'>REGISTRATION</span> is done with the <span class='font-semibold'>EMPLOYEES' PROVIDENT FUND ORGANISATION (EPFO)</span>, and compliance with <span class='font-semibold'>PAYMENT</span> and <span class='font-semibold'>REPORTING</span> requirements is essential to avoid penalties.",
+              "image": "/svgs/services/pf_registration.svg"
+          },
+          {
+              "title": "ESI Registration",
+              "content": "It is a mandatory social security scheme for workers in India, governed by the <span class='font-semibold'>ESI ACT, 1948</span>. It provides benefits like medical care, sickness, maternity, and disability benefits to employees. <span class='font-semibold'>EMPLOYERS</span> with 10 or more employees must register their establishments under the <span class='font-semibold'>EMPLOYEES' STATE INSURANCE CORPORATION (ESIC)</span>. Both employers and employees contribute a percentage of the salary, ensuring <span class='font-semibold'>COMPLIANCE</span> and <span class='font-semibold'>EMPLOYEE WELFARE</span>.",
+              "image": "/svgs/services/esi_registration.svg"
+          },
+          {
+              "title": "PAN/ TAN Application",
+              "content": "It is essential tax identification numbers issued by the <span class='font-semibold'>INCOME TAX DEPARTMENT OF INDIA</span>. PAN is required for financial transactions, tax filing, and business registrations, while TAN is mandatory for entities deducting <span class='font-semibold'>TDS (Tax Deducted at Source)</span>. Businesses and individuals can apply for both online through the <span class='font-semibold'>NSDL</span> or <span class='font-semibold'>UTIITSL</span> portals, ensuring <span class='font-semibold'>TAX COMPLIANCE</span> and legal operations.",
+              "image": "/svgs/services/pan_tan_application.svg"
+          },
+          {
+              "title": "FSSAI [Food License]",
+              "content": "It is mandatory for businesses involved in <span class='font-semibold'>FOOD MANUFACTURING, PROCESSING, STORAGE, DISTRIBUTION, AND SALE</span> in India. It ensures <span class='font-semibold'>FOOD SAFETY STANDARDS</span> and consumer health protection. Businesses must obtain an <span class='font-semibold'>FSSAI REGISTRATION OR LICENSE</span> based on their turnover and operations. It is issued by the <span class='font-semibold'>FSSAI</span> and requires compliance with <span class='font-semibold'>FOOD SAFETY REGULATIONS</span> under the <span class='font-semibold'>FSS ACT, 2006</span> to avoid penalties.",
+              "image": "/svgs/services/food_license.svg"
+          },
+          {
+              "title": "Hallmark Registration",
+              "content": "It is mandatory for <span class='font-semibold'>JEWELERS AND MANUFACTURERS</span> selling gold and silver jewelry in India. It ensures <span class='font-semibold'>PURITY AND FINENESS</span> as per the <span class='font-semibold'>BUREAU OF INDIAN STANDARDS (BIS)</span>. Under the <span class='font-semibold'>HALLMARKING SCHEME</span>, jewelers must obtain a <span class='font-semibold'>BIS CERTIFICATION</span> to legally sell hallmarked jewelry. This ensures compliance with <span class='font-semibold'>INDIAN STANDARD SPECIFICATIONS</span> and protects consumer rights. Non-compliance can lead to <span class='font-semibold'>PENALTIES UNDER BIS ACT, 2016</span>.",
+              "image": "/svgs/services/hallmark_registration.svg"
+          },
+          {
+              "title": "BIS Registration",
+              "content": "It is mandatory for certain products under the <span class='font-semibold'>BUREAU OF INDIAN STANDARDS (BIS) ACT, 2016</span> to ensure <span class='font-semibold'>QUALITY, SAFETY, AND RELIABILITY</span>. It applies to <span class='font-semibold'>ELECTRONIC GOODS, INDUSTRIAL PRODUCTS, AND CONSUMER ITEMS</span>, requiring compliance with <span class='font-semibold'>INDIAN STANDARDS (IS)</span>. Manufacturers must obtain a <span class='font-semibold'>BIS CERTIFICATION</span> before selling regulated products in India. Non-compliance can lead to <span class='font-semibold'>LEGAL ACTION AND PENALTIES</span> as per government norms.",
+              "image": "/svgs/services/bis_registration.svg"
+          },
+          {
+              "title": "AD Code Registration",
+              "content": "It is mandatory for exporters in India to facilitate <span class='font-semibold'>INTERNATIONAL TRADE AND FOREIGN EXCHANGE TRANSACTIONS</span>. Issued by an <span class='font-semibold'>AUTHORISED DEALER (AD) BANK</span>, it is a 14-DIGIT CODE required for <span class='font-semibold'>CUSTOMS CLEARANCE</span> and to receive <span class='font-semibold'>EXPORT INCENTIVES</span>. Exporters must register their <span class='font-semibold'>AD CODE</span> with the <span class='font-semibold'>ICEGATE PORTAL</span> for smooth <span class='font-semibold'>EXPORT DOCUMENTATION AND DUTY REFUNDS</span>. Without it, shipments cannot be processed through Indian ports.",
+              "image": "/svgs/services/ad_code_registration.svg"
+          },
+          {
+              "title": "Trademark & Other IPR Registration",
+              "content": "It protects intellectual property rights in India under various laws. <span class='font-semibold'>TRADEMARK REGISTRATION</span> under the <span class='font-semibold'>TRADEMARKS ACT, 1999</span> safeguards brand names, logos, and slogans. <span class='font-semibold'>PATENTS</span> protect inventions under the <span class='font-semibold'>PATENTS ACT, 1970</span>, while <span class='font-semibold'>COPYRIGHTS</span> secure creative works under the <span class='font-semibold'>COPYRIGHT ACT, 1957</span>. <span class='font-semibold'>DESIGN REGISTRATION</span> under the <span class='font-semibold'>DESIGNS ACT, 2000</span> protects product aesthetics. These rights prevent <span class='font-semibold'>INFRINGEMENT</span>, enhance <span class='font-semibold'>BUSINESS VALUE</span>, and provide <span class='font-semibold'>LEGAL PROTECTION</span>.",
+              "image": "/svgs/services/trademark_&_other_ipr_registration.svg"
+          },
+          {
+              "title": "Shops And Establishments License",
+              "content": "It is a mandatory registration under the <span class='font-semibold'>SHOPS AND ESTABLISHMENTS ACT</span>, regulated by state governments. It applies to businesses, shops, offices, and commercial establishments to ensure compliance with <span class='font-semibold'>WORKING HOURS, WAGES, EMPLOYEE RIGHTS, AND SAFETY</span> norms. The license is issued by the <span class='font-semibold'>LABOUR DEPARTMENT</span> and must be obtained within <span class='font-semibold'>30 DAYS OF BUSINESS COMMENCEMENT</span>. It is essential for business legality, <span class='font-semibold'>BANK ACCOUNT OPENING</span>, and smooth operations.",
+              "image": "/svgs/services/shops_and_establishments_license.svg"
+          },
+          {
+              "title": "Employee Stock Option Plan [ESOP]",
+              "content": "It is a benefit scheme allowing employees to <span class='font-semibold'>BUY COMPANY SHARES</span> at a predetermined price after a <span class='font-semibold'>VESTING PERIOD</span>. Governed by the <span class='font-semibold'>COMPANIES ACT, 2013</span>, ESOPs help in <span class='font-semibold'>EMPLOYEE RETENTION, MOTIVATION, AND WEALTH CREATION</span>. Applicable to <span class='font-semibold'>PRIVATE AND PUBLIC COMPANIES</span>, ESOPs require shareholder approval and compliance with <span class='font-semibold'>SEBI REGULATIONS</span> (for listed companies). Taxation applies at <span class='font-semibold'>ALLOTMENT AND SALE OF SHARES</span>, based on capital gains rules.",
+              "image": "/svgs/services/employee_stock_option_plan.svg"
+          },
+          {
+              "title": "POSH Compliance",
+              "content": "It refers to adherence to the <span class='font-semibold'>PREVENTION OF SEXUAL HARASSMENT (POSH) ACT, 2013</span>, which mandates organizations with <span class='font-semibold'>10 OR MORE EMPLOYEES</span> to implement measures against workplace sexual harassment. It requires forming an <span class='font-semibold'>INTERNAL COMPLAINTS COMMITTEE (ICC)</span>, conducting <span class='font-semibold'>AWARENESS TRAININGS</span>, and ensuring a <span class='font-semibold'>SAFE WORK ENVIRONMENT</span>. Non-compliance can lead to <span class='font-semibold'>PENALTIES AND LEGAL ACTION</span>. Employers must <span class='font-semibold'>POLICY IMPLEMENTATION, REPORTING, AND TRAINING</span> to maintain compliance.",
+              "image": "/svgs/services/posh_compliance.svg"
+          },
+          {
+              "title": "Labor Law Compliances",
+              "content": "It ensures fair treatment and protection of employees under various laws like the <span class='font-semibold'>FACTORIES ACT, EPF ACT, ESI ACT, MINIMUM WAGES ACT, and SHOPS & ESTABLISHMENTS ACT</span>. Employers must follow <span class='font-semibold'>WAGES, WORKING HOURS, SAFETY, SOCIAL SECURITY, AND EMPLOYEE RIGHTS</span> regulations. Compliance includes <span class='font-semibold'>PF, ESI, GRATUITY, BONUS, CONTRACT LABOR REGULATIONS, and POSH LAWS</span>. Non-compliance leads to <span class='font-semibold'>PENALTIES AND LEGAL ACTION</span> by authorities.",
+              "image": "/svgs/services/labor_law_compliances.svg"
+          },
+          {
+              "title": "Customs Clearance",
+              "content": "It is the process of ensuring that goods meet <span class='font-semibold'>INDIAN IMPORT/EXPORT REGULATIONS</span> before they can be legally shipped across borders. This includes filing necessary <span class='font-semibold'>DOCUMENTS, PAYING DUTIES AND TAXES</span>, and getting approval from <span class='font-semibold'>CUSTOMS AUTHORITIES</span>. Importers must follow the <span class='font-semibold'>CUSTOMS ACT</span>, adhere to <span class='font-semibold'>HS CODES</span>, and comply with regulations by the <span class='font-semibold'>DIRECTORATE GENERAL OF FOREIGN TRADE (DGFT)</span>. Non-compliance can lead to <span class='font-semibold'>DELAYED SHIPMENTS</span> and <span class='font-semibold'>FINES</span>.",
+              "image": "/svgs/services/customs_clearance.svg"
+          },
+          {
+              "title": "Startup India Registration",
+              "content": "It is a government initiative to promote innovation and entrepreneurship in India. To qualify, a business must be incorporated as a <span class='font-semibold'>PRIVATE LIMITED COMPANY, LLP, or ONE PERSON COMPANY (OPC)</span>, and meet criteria like a <span class='font-semibold'>TURNOVER OF LESS THAN ₹100 CRORE</span> and being <span class='font-semibold'>NOT OLDER THAN 10 YEARS</span>. Registered startups can benefit from <span class='font-semibold'>TAX EXEMPTIONS, FUNDING OPPORTUNITIES</span>, and simplified <span class='font-semibold'>COMPLIANCE</span> under the Startup India scheme.",
+              "image": "/svgs/services/startup_india_registration.svg"
+          },
+          {
+              "title": "HUF & Other Registrations",
+              "content": "It is a unique structure in India used primarily for <span class='font-semibold'>TAX PLANNING</span> and managing ancestral property. An HUF consists of a <span class='font-semibold'>KARTA (head of the family)</span> and <span class='font-semibold'>MEMBERS</span>, typically comprising family members by birth. Registration of an HUF is not mandatory, but it must be created by a <span class='font-semibold'>DEED</span> to claim tax benefits. Other registrations like <span class='font-semibold'>PARTNERSHIP, LLP, or PRIVATE LIMITED COMPANY</span> are also governed by specific acts based on business requirements.",
+              "image": "/svgs/services/huf_&_other_registrations.svg"
+          }
+      ]
+  },
+  {
+      "section": "Income Tax",
+      "services": [
+          {
+              "title": "Tax Return Preparation & Filing",
+              "content": "It is the process of calculating and reporting income, expenses, and other financial information to the <span class='font-semibold'>INCOME TAX DEPARTMENT</span>. Individuals and businesses must file an <span class='font-semibold'>INCOME TAX RETURN (ITR)</span> annually, based on income sources like <span class='font-semibold'>SALARIES, BUSINESS INCOME, and CAPITAL GAINS</span>. The filing can be done online through the <span class='font-semibold'>INCOME TAX PORTAL</span>. Ensuring accurate reporting of <span class='font-semibold'>TAX DEDUCTED AT SOURCE (TDS)</span> and other exemptions is crucial for compliance and avoiding penalties.",
+              "image": "/svgs/services/tax_return_preparation_&_filing.svg"
+          },
+          {
+              "title": "TDS / TCS & Other Return Filing",
+              "content": "It is a form of tax collection in India where tax is deducted or collected at the point of transaction. Businesses and individuals are required to file <span class='font-semibold'>TDS/TCS RETURNS</span> quarterly with the <span class='font-semibold'>INCOME TAX DEPARTMENT</span>. These returns report the amount of tax deducted or collected, ensuring compliance with the <span class='font-semibold'>INCOME TAX ACT, 1961</span>. Failure to file returns on time may result in penalties or interest.",
+              "image": "/svgs/services/tds-tcs.svg"
+          },
+          {
+              "title": "Income Tax Assessments",
+              "content": "It is the process by which the <span class='font-semibold'>INCOME TAX DEPARTMENT</span> evaluates the income and tax liabilities of individuals and businesses. It involves the filing of <span class='font-semibold'>TAX RETURNS</span>, followed by the <span class='font-semibold'>VERIFICATION and EVALUATION</span> of the returns. The department may conduct audits, issue notices, or make assessments under the <span class='font-semibold'>INCOME TAX ACT, 1961</span>. Assessments determine the final tax liability or refund due to the taxpayer. Non-compliance can lead to penalties.",
+              "image": "/svgs/services/income_tax_assessments.svg"
+          },
+          {
+              "title": "Income Tax Notice & Rectifications",
+              "content": "It is issued by the <span class='font-semibold'>INCOME TAX DEPARTMENT</span> when there is a discrepancy, underreporting, or mismatch in the filed <span class='font-semibold'>TAX RETURNS</span>. The notice requires taxpayers to provide explanations or additional documents. <span class='font-semibold'>RECTIFICATIONS</span> refer to the correction of errors or discrepancies in the filed returns. Under <span class='font-semibold'>SECTION 154</span> of the <span class='font-semibold'>INCOME TAX ACT, 1961</span>, taxpayers can request rectifications if mistakes are identified after the assessment. Non-compliance may lead to penalties.",
+              "image": "/svgs/services/income_tax_notice_icon.svg"
+          },
+          {
+              "title": "Exemptions & Deductions Certification",
+              "content": "It is a process where taxpayers can claim eligible exemptions and deductions under the <span class='font-semibold'>INCOME TAX ACT, 1961</span> to reduce taxable income. Common deductions include those under <span class='font-semibold'>SECTION 80C, 80D, and 80G</span> for investments, insurance, and donations. A <span class='font-semibold'>CERTIFICATE</span> is issued by the <span class='font-semibold'>INCOME TAX DEPARTMENT</span> confirming the eligible exemptions and deductions. Proper documentation and timely filing ensure compliance and maximize tax benefits.",
+               "image": "/svgs/services/exemptions_&_deductions_certification_1.svg"
+          },
+          {
+              "title": "Valuations & Certifications",
+              "content": "It is an essential process for determining the fair value of assets, businesses, or shares under <span class='font-semibold'>INDIAN LAW</span>. These valuations are required for various purposes, such as mergers, acquisitions, or tax assessments, and must be conducted by a certified <span class='font-semibold'>VALUER</span>. The process ensures compliance with regulations like <span class='font-semibold'>COMPANIES ACT, 2013</span> and <span class='font-semibold'>INCOME TAX ACT, 1961</span>. Certified professionals issue reports that serve as official validation for financial transactions, ensuring transparency and accuracy.",
+              "image": "/svgs/services/valuations_&_certifications.svg"
+          },
+          {
+              "title": "Income Tax Appeals & Revisions",
+              "content": "These are legal processes available to taxpayers in <span class='font-semibold'>INDIA</span> to challenge decisions made by tax authorities. If a taxpayer disagrees with an <span class='font-semibold'>INCOME TAX ASSESSMENT</span>, they can file an <span class='font-semibold'>APPEAL</span> with the <span class='font-semibold'>CIT(A)</span> or higher authorities. Additionally, taxpayers can request <span class='font-semibold'>REVISIONS</span> of orders under the <span class='font-semibold'>INCOME TAX ACT, 1961</span>. These procedures ensure fairness and compliance with tax laws, providing taxpayers an opportunity to correct errors or disputes regarding tax assessments.",
+              "image": "/svgs/services/income_tax_appeals_&_revisions.svg"
+          }
+      ]
+  },
+  {
+      "section": "Goods & Service Tax",
+      "services": [
+          {
+              "title": "GST Registrations",
+              "content": "It is mandatory for businesses with a turnover exceeding <span class='font-semibold'>₹40 LAKH (₹20 LAKH for special states)</span>. It is a legal process where businesses are registered under the <span class='font-semibold'>GOODS & SERVICE TAX ACT, 2017</span>. Registered businesses are assigned a <span class='font-semibold'>GSTIN (GST Identification Number)</span> and are required to file <span class='font-semibold'>GST RETURNS</span> periodically. Registration allows businesses to collect tax on behalf of the government and avail input tax credits for taxes paid on inputs.",
+              "image": "/svgs/services/gst_registrations.svg"
+          },
+          {
+              "title": "GST Cancellation & Revocations",
+              "content": "It occurs when a business is no longer liable for <span class='font-semibold'>GST REGISTRATION</span>, either due to closure, cessation of business activities, or non-compliance with regulations. The <span class='font-semibold'>GST AUTHORITIES</span> can cancel the registration, and the taxpayer can apply for <span class='font-semibold'>REVOCATION</span> if the cancellation was done erroneously or if they resume operations. Cancellation leads to the <span class='font-semibold'>WITHDRAWAL</span> of GSTIN, while revocation reinstates it, subject to compliance with conditions.",
+             "image": "/svgs/services/gst_cancellation.svg"
+          },
+          {
+              "title": "GST Returns & Other Filings & Management",
+              "content": "These are mandatory for all <span class='font-semibold'>GST REGISTERED</span> businesses in India. These returns include <span class='font-semibold'>GSTR-1, GSTR-3B</span>, and others, which must be filed periodically to report sales, purchases, tax paid, and tax collected. Timely filings ensure <span class='font-semibold'>COMPLIANCE</span> with <span class='font-semibold'>GST LAW</span> and avoid penalties. Effective <span class='font-semibold'>GST MANAGEMENT</span> includes maintaining accurate records, filing returns on time, and reconciling input-output taxes to minimize errors and optimize tax liabilities.",
+              "image": "/svgs/services/gst_returns.svg"
+          },
+          {
+              "title": "GST Compliances Set-up & Management",
+              "content": "It involves ensuring that businesses meet all the <span class='font-semibold'>LEGAL REQUIREMENTS</span> under the <span class='font-semibold'>GST LAW</span>. This includes registering for GST, maintaining proper records, and filing returns on time. A well-organized <span class='font-semibold'>COMPLIANCE SYSTEM</span> ensures accurate tax reporting, timely payment of dues, and proper reconciliation of <span class='font-semibold'>INPUT TAX CREDIT</span>. It helps businesses avoid penalties, reduce the risk of audits, and optimize their overall <span class='font-semibold'>GST MANAGEMENT</span> for smooth operations.",
+              "image": "/svgs/services/gst_compliances_set-up_&_management.svg"
+          },
+          {
+              "title": "GST Periodical Review & Reconciliations (POP UP)",
+              "content": "It involves regularly reviewing a business’s <span class='font-semibold'>GST RETURNS, TAX PAYMENTS, and INPUT TAX CREDIT</span> to ensure accuracy and compliance with <span class='font-semibold'>GST REGULATIONS</span>. It includes cross-checking data with <span class='font-semibold'>ACCOUNTING RECORDS</span> and ensuring that any discrepancies are addressed. A timely review helps identify errors, prevent penalties, and ensure smooth filing of <span class='font-semibold'>GST RETURNS</span>. Regular <span class='font-semibold'>RECONCILIATION</span> reduces the risk of future audits and ensures business compliance with <span class='font-semibold'>TAX LAWS</span>.",
+               "image": "/svgs/services/gst_periodical_review_&_reconciliations.svg"
+          },
+          {
+              "title": "GST Refunds",
+              "content": "These are claims made by taxpayers to recover <span class='font-semibold'>EXCESS TAX PAID</span> or taxes paid on <span class='font-semibold'>EXPORTS, INPUT TAX CREDIT</span> on business inputs, or <span class='font-semibold'>DEPOSITS</span> made in the GST account. The refund process involves submitting an <span class='font-semibold'>APPLICATION</span> along with required documents and <span class='font-semibold'>GST RETURNS</span>. Refunds are processed by the <span class='font-semibold'>GST AUTHORITIES</span>, and businesses must ensure accurate documentation and timely filings to avoid delays. Certain <span class='font-semibold'>CONDITIONS</span> must be met to qualify for refunds under <span class='font-semibold'>GST LAW</span>.",
+              "image": "/svgs/services/gst_refunds.svg"
+          },
+          {
+              "title": "GST Demand Corrections",
+              "content": "It refers to the process of rectifying any discrepancies or errors in <span class='font-semibold'>TAX DEMANDS</span> raised by GST authorities. If a business believes the demand is incorrect or inflated, it can <span class='font-semibold'>APPEAL</span> or file a <span class='font-semibold'>REVIEW REQUEST</span> for correction. This process requires the submission of relevant <span class='font-semibold'>DOCUMENTS</span>, including <span class='font-semibold'>GST RETURNS</span>, and proof of <span class='font-semibold'>TAX PAID</span>. Timely corrections are essential to avoid penalties or legal actions under <span class='font-semibold'>GST LAW</span>.",
+              "image": "/svgs/services/gst_demand_corrections.svg"
+          },
+          {
+              "title": "GST Appeals",
+              "content": "It refers to the process through which a taxpayer can challenge <span class='font-semibold'>TAX ASSESSMENTS</span> or <span class='font-semibold'>DEMANDS</span> made by the <span class='font-semibold'>GST AUTHORITIES</span>. If a business disagrees with the <span class='font-semibold'>GST DECISION</span> or assessment, it can file an <span class='font-semibold'>APPEAL</span> with the <span class='font-semibold'>APPELLATE AUTHORITY</span>. This procedure involves submitting necessary documents and representations. <span class='font-semibold'>TIMELY APPEALS</span> ensure that businesses can seek redressal for any grievances and avoid penalties under <span class='font-semibold'>GST LAW</span>.",
+              "image": "/svgs/services/gst_appeals.svg"
+          }
+      ]
+  },
+  {
+      "section": "Bookkeeping",
+      "services": [
+          {
+              "title": "Onsite/ Remote Accounting & Bookkeeping",
+              "content": "It refers to the management of <span class='font-semibold'>FINANCIAL RECORDS</span> either at the client's location (onsite) or remotely through digital platforms (remote). It includes tracking <span class='font-semibold'>TRANSACTIONS</span>, reconciling <span class='font-semibold'>ACCOUNTS</span>, preparing <span class='font-semibold'>FINANCIAL STATEMENTS</span>, and ensuring <span class='font-semibold'>TAX COMPLIANCE</span>. Both methods help businesses maintain accurate records and comply with <span class='font-semibold'>INDIAN ACCOUNTING STANDARDS (IND AS)</span> and <span class='font-semibold'>TAX LAWS</span>. Remote accounting offers flexibility, while onsite services provide direct, personalized support.",
+              "image": "/svgs/services/onsite_remote_accounting_&_bookkeeping_1.svg"
+          },
+          {
+              "title": "Tax Compliances Filing & Management",
+              "content": "It involves the systematic process of ensuring timely and accurate filing of <span class='font-semibold'>TAX RETURNS</span>, including <span class='font-semibold'>INCOME TAX, GST, and TDS</span> as per <span class='font-semibold'>INDIAN TAX LAWS</span>. It also includes maintaining proper <span class='font-semibold'>DOCUMENTATION</span>, calculating <span class='font-semibold'>TAX LIABILITIES</span>, and ensuring adherence to <span class='font-semibold'>DEADLINES</span>. Effective tax management helps businesses avoid penalties, claim <span class='font-semibold'>DEDUCTIONS</span>, and optimize tax liabilities while staying compliant with <span class='font-semibold'>TAX REGULATIONS</span> set by the <span class='font-semibold'>INCOME TAX DEPARTMENT</span> and <span class='font-semibold'>GST COUNCIL</span>.",
+              "image": "/svgs/services/tax_compliances_filing_&_management.svg"
+          },
+          {
+              "title": "Export / Import Management",
+              "content": "It involves the handling of <span class='font-semibold'>INTERNATIONAL TRADE</span> activities, including the movement of goods and services across borders. It requires compliance with <span class='font-semibold'>EXPORT/IMPORT REGULATIONS, CUSTOMS PROCEDURES</span>, and the <span class='font-semibold'>FOREIGN TRADE POLICY</span>. Businesses must obtain an <span class='font-semibold'>IMPORT/EXPORT CODE (IEC)</span> and adhere to <span class='font-semibold'>DOCUMENTATION, DUTIES, and TAXATION</span> norms. This management ensures smooth operations, optimizes <span class='font-semibold'>EXPORT/IMPORT COSTS</span>, and supports global business expansion while meeting the legal requirements of <span class='font-semibold'>INDIAN LAW</span>.",
+              "image": "/svgs/services/export_import_management.svg"
+          },
+          {
+              "title": "Payroll Management",
+              "content": "It involves the process of calculating and distributing employee salaries, wages, bonuses, and deductions in compliance with <span class='font-semibold'>LABOR LAWS</span>. It includes the proper management of <span class='font-semibold'>TAX DEDUCTIONS, EMPLOYEE BENEFITS</span>, and statutory requirements such as <span class='font-semibold'>PROVIDENT FUND (PF), EMPLOYEE STATE INSURANCE (ESI), and PROFESSIONAL TAX</span>. Payroll management ensures timely payments, accurate <span class='font-semibold'>TAX FILINGS</span>, and adherence to <span class='font-semibold'>INDIAN LABOR LAWS</span>, supporting a company's financial and legal compliance.",
+              "image": "/svgs/services/payroll_management.svg"
+          },
+          {
+              "title": "Payable / Receivable Management",
+              "content": "It involves managing outstanding <span class='font-semibold'>BILLS, INVOICES</span>, and payments between businesses and their creditors or customers. <span class='font-semibold'>ACCOUNTS PAYABLE</span> ensures timely payment to vendors, while <span class='font-semibold'>ACCOUNTS RECEIVABLE</span> focuses on collecting dues from clients. Effective management improves <span class='font-semibold'>CASH FLOW</span>, reduces <span class='font-semibold'>BAD DEBTS</span>, and ensures compliance with <span class='font-semibold'>TAX LAWS</span> such as GST and <span class='font-semibold'>INCOME TAX</span>. It is vital for maintaining business liquidity and legal financial practices as per <span class='font-semibold'>INDIAN LAW</span>.",
+              "image": "/svgs/services/payable_receivable_managemen.svg"
+          },
+          {
+              "title": "Stock Management",
+              "content": "It involves tracking, controlling, and optimizing inventory to ensure that products are available when needed while minimizing excess stock. It includes tasks like <span class='font-semibold'>PURCHASE, STORAGE, ISSUE, and DISPOSAL</span> of goods. Proper stock management helps businesses maintain <span class='font-semibold'>COST-EFFICIENCY</span>, avoid <span class='font-semibold'>STOCK-OUTS</span>, and comply with <span class='font-semibold'>GST</span> regulations. It is essential for accurate <span class='font-semibold'>FINANCIAL REPORTING</span> and to meet <span class='font-semibold'>INDIAN LAW</span> requirements related to inventory management and taxation.",
+              "image": "/svgs/services/stock_management.svg"
+          },
+          {
+              "title": "Financial Budgeting & Management",
+              "content": "It involves planning, monitoring, and controlling a business's financial resources to achieve its objectives. It includes setting <span class='font-semibold'>REVENUE, EXPENSES, and CASH FLOW</span> targets, ensuring that spending aligns with the company’s strategic goals. Effective management helps improve <span class='font-semibold'>COST CONTROL</span>, ensures tax compliance under <span class='font-semibold'>INDIAN LAW</span>, and aids in decision-making. Regular <span class='font-semibold'>FINANCIAL REVIEWS</span> and <span class='font-semibold'>ANALYSES</span> are essential for sustainable business growth and financial health.",
+              "image": "/svgs/services/financial_budgeting_&_management.svg"
+          },
+          {
+              "title": "Project Reporting",
+              "content": "It involves the process of tracking and documenting the progress of a project, ensuring it aligns with <span class='font-semibold'>TIMELINES, BUDGETS, and OBJECTIVES</span>. It includes providing regular updates on project performance, resource utilization, and <span class='font-semibold'>RISK MANAGEMENT</span>. In India, <span class='font-semibold'>COMPLIANCE</span> with regulatory requirements and adherence to <span class='font-semibold'>PROJECT MANAGEMENT STANDARDS</span> is essential. Effective reporting supports decision-making, ensures <span class='font-semibold'>TRANSPARENCY</span>, and helps in mitigating issues during project execution.",
+              "image": "/svgs/services/project_reporting.svg"
+          },
+          {
+              "title": "Valuations & Certifications",
+              "content": "It refers to the process of determining the <span class='font-semibold'>FINANCIAL WORTH</span> of assets, businesses, or properties for various purposes such as mergers, acquisitions, or tax assessments. In India, professional <span class='font-semibold'>CERTIFICATIONS</span> are required for compliance with regulations like the <span class='font-semibold'>COMPANIES ACT</span> and <span class='font-semibold'>TAX LAWS</span>. This includes conducting fair value assessments, issuing certificates for financial statements, and ensuring compliance with relevant <span class='font-semibold'>INDUSTRY STANDARDS</span> to meet statutory obligations and business needs.",
+              "image": "/svgs/services/valuations_&_certifications.svg"
+          }
+      ]
+  },
+  {
+      "section": "Agreements & Special",
+      "services": [
+          {
+              "title": "Joint Venture Agreement",
+              "content": "It is a legal contract between two or more parties who collaborate to achieve a specific business objective while sharing resources, profits, and risks. Governed by the <span class='font-semibold'>INDIAN CONTRACT ACT, 1872</span>, this agreement outlines the roles, contributions, and liabilities of each party. It ensures that all partners are clear on their responsibilities and helps avoid disputes by defining key terms such as <span class='font-semibold'>PROFIT SHARING, DISPUTE RESOLUTION, and EXIT CLAUSE</span>.",
+              "image": "/svgs/services/joint_venture_agreement.svg"
+          },
+          {
+              "title": "Shareholders Agreement (SHA)",
+              "content": "It is a legal contract that outlines the relationship between a company's shareholders, detailing their <span class='font-semibold'>RIGHTS, DUTIES, and RESPONSIBILITIES</span>. It defines <span class='font-semibold'>VOTING RIGHTS, DIVIDEND DISTRIBUTION</span>, and <span class='font-semibold'>DISPUTE RESOLUTION</span> procedures, while ensuring the protection of each shareholder’s interests. The SHA is essential for preventing conflicts and establishing <span class='font-semibold'>EXIT CLAUSES</span> and the <span class='font-semibold'>TRANSFER OF SHARES</span>. It is governed by the <span class='font-semibold'>INDIAN COMPANIES ACT, 2013</span> and other relevant laws.",
+              "image": "/svgs/services/shareholders_agreement.svg"
+          },
+          {
+              "title": "Share Subscription Agreement (SSA)",
+              "content": "It is a contract between a company and an investor, outlining the terms under which the investor agrees to <span class='font-semibold'>SUBSCRIBE</span> to the company's shares. It specifies the <span class='font-semibold'>NUMBER OF SHARES, PRICE PER SHARE</span>, and the <span class='font-semibold'>PAYMENT TERMS</span>. The SSA governs the <span class='font-semibold'>RIGHTS</span> and <span class='font-semibold'>OBLIGATIONS</span> of both parties, ensuring clarity on the investment process. It is governed by the <span class='font-semibold'>INDIAN COMPANIES ACT, 2013</span> and related laws.",
+              "image": "/svgs/services/share_subscription_agreement.svg"
+          },
+          {
+              "title": "ECB Agreement",
+              "content": "It is a contract between an Indian company and a foreign lender for borrowing funds from abroad. It is governed by the <span class='font-semibold'>FEMA (Foreign Exchange Management Act)</span> and the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span> guidelines. The agreement outlines the <span class='font-semibold'>LOAN AMOUNT, INTEREST RATES, REPAYMENT TERMS</span>, and <span class='font-semibold'>CURRENCY</span> involved. It is used to raise funds for business expansion, infrastructure projects, and other developmental activities.",
+              "image": "/svgs/services/ecb_agreement.svg"
+          },
+          {
+              "title": "Loan Agreement",
+              "content": "It is a legally binding contract between a <span class='font-semibold'>LENDER</span> and a <span class='font-semibold'>BORROWER</span> outlining the terms of a loan. In India, it is governed by the <span class='font-semibold'>CONTRACT ACT</span> and, depending on the type of loan, can also fall under the <span class='font-semibold'>RBI</span> guidelines for financial institutions. It includes details like the <span class='font-semibold'>LOAN AMOUNT, INTEREST RATE, REPAYMENT TERMS</span>, and <span class='font-semibold'>COLLATERAL</span> (if applicable). The agreement ensures clarity on the obligations of both parties.",
+              "image": "/svgs/services/loan_agreement.svg"
+          },
+          {
+              "title": "Agreement Of Debentures",
+              "content": "It is a legal contract between a <span class='font-semibold'>COMPANY</span> and its debenture holders, outlining the terms under which the company borrows funds by issuing debentures. In India, it is governed by the <span class='font-semibold'>COMPANIES ACT, 2013</span>, and involves details like <span class='font-semibold'>INTEREST RATE, MATURITY PERIOD, REPAYMENT TERMS</span>, and the <span class='font-semibold'>SECURITY</span> provided (if any). Debenture holders receive interest at regular intervals, and the company is obligated to repay the principal amount on maturity.",
+              "image": "/svgs/services/agreement_of_debentures.svg"
+          },
+          {
+              "title": "Master Service Agreement",
+              "content": "It is a long-term contract between a <span class='font-semibold'>SERVICE PROVIDER</span> and a <span class='font-semibold'>CLIENT</span>, establishing the general terms and conditions for future transactions or services. It outlines the <span class='font-semibold'>SCOPE OF WORK, PAYMENT TERMS, DELIVERY DEADLINES, LIABILITY</span>, and <span class='font-semibold'>INTELLECTUAL PROPERTY</span> rights. The MSA serves as a framework for individual projects or work orders, ensuring consistency and protecting both parties in India under <span class='font-semibold'>CONTRACT LAW</span>.",
+              "image": "/svgs/services/master_service_agreement.svg"
+          },
+          {
+              "title": "LLP Agreement",
+              "content": "It is a legal contract between partners in a <span class='font-semibold'>LIMITED LIABILITY PARTNERSHIP (LLP)</span>, outlining the <span class='font-semibold'>ROLES, RESPONSIBILITIES, and RIGHTS</span> of each partner. It includes terms for <span class='font-semibold'>PROFIT SHARING, MANAGEMENT, CONTRIBUTIONS</span>, and <span class='font-semibold'>DISPUTE RESOLUTION</span>. Under <span class='font-semibold'>INDIAN LAW</span>, an LLP offers limited liability protection to partners, meaning personal assets are shielded from business debts. The agreement is crucial for the smooth functioning and governance of the LLP.",
+              "image": "/svgs/services/llp_agreement.svg"
+          },
+          {
+              "title": "Partnership Deed",
+              "content": "It is a legal document that outlines the terms and conditions governing a <span class='font-semibold'>PARTNERSHIP FIRM</span> in accordance with the <span class='font-semibold'>INDIAN PARTNERSHIP ACT, 1932</span>. It includes key details like <span class='font-semibold'>PARTNERSHIP STRUCTURE, PROFIT SHARING, RESPONSIBILITIES, CAPITAL CONTRIBUTION</span>, and <span class='font-semibold'>DISPUTE RESOLUTION</span> mechanisms. This deed helps prevent misunderstandings and ensures smooth operations of the partnership by clearly defining the roles and obligations of all partners involved.",
+              "image": "/svgs/services/partnership_deed.svg"
+          },
+          {
+              "title": "Trust Deed",
+              "content": "It is a legal document that establishes a <span class='font-semibold'>TRUST</span> in India under the <span class='font-semibold'>INDIAN TRUSTS ACT, 1882</span>. It outlines the <span class='font-semibold'>TRUSTEE'S</span> responsibilities, the <span class='font-semibold'>BENEFICIARIES</span> of the trust, and the <span class='font-semibold'>ASSETS</span> to be managed. The deed specifies the <span class='font-semibold'>PURPOSE</span> of the trust, whether charitable, religious, or social, and includes details on how the trust’s assets will be administered and distributed. It ensures legal protection and clarity for all parties involved.",
+              "image": "/svgs/services/trust_deed.svg"
+          },
+          {
+              "title": "Power Of Attorney",
+              "content": "It is a legal document in India that grants an individual, known as the <span class='font-semibold'>GRANTOR</span>, the authority to appoint someone, called the <span class='font-semibold'>ATTORNEY</span> or <span class='font-semibold'>AGENT</span>, to act on their behalf in legal, financial, or property matters. It can be <span class='font-semibold'>GENERAL</span> or <span class='font-semibold'>SPECIFIC</span>, specifying the scope of powers granted. The POA must be <span class='font-semibold'>SIGNED</span> by the grantor and duly <span class='font-semibold'>NOTARIZED</span> or <span class='font-semibold'>REGISTERED</span> for validity under Indian law.",
+              "image": "/svgs/services/power_of_attorney.svg"
+          },
+          {
+              "title": "Scheme Of ESOP",
+              "content": "It is a program that allows employees to own shares in the company they work for. It is a <span class='font-semibold'>COMPENSATION TOOL</span> aimed at attracting, retaining, and motivating employees by offering them the option to purchase company shares at a <span class='font-semibold'>FAVORABLE PRICE</span>. The scheme must be approved by the <span class='font-semibold'>BOARD OF DIRECTORS</span>, and it must comply with regulations set by the <span class='font-semibold'>SEBI</span> and <span class='font-semibold'>COMPANIES ACT</span> in India.",
+              "image": "/svgs/services/scheme_of_esop.svg"
+          }
+      ]
+  },
+  {
+      "section": "Corporate Regulatory Affairs",
+      "services": [
+          {
+              "title": "Annual Filing Of Companies",
+              "content": "It refers to the mandatory submission of annual financial documents and reports to regulatory authorities under the <span class='font-semibold'>COMPANIES ACT</span>. These filings include <span class='font-semibold'>AUDITED FINANCIAL STATEMENTS, DIRECTOR'S REPORT, and ANNUAL RETURN</span>. Companies must comply with <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span> regulations to maintain good standing. <span class='font-semibold'>LATE FILINGS</span> may incur penalties or even legal action. These filings are essential for <span class='font-semibold'>TRANSPARENCY, COMPLIANCE, and CORPORATE GOVERNANCE</span>.",
+              "image": "/svgs/services/annual_filing_of_companies.svg"
+          },
+          {
+              "title": "Annual Filing Of Liaison Office, Project Office & Branch Office",
+              "content": "It involves the submission of required financial and operational documents to <span class='font-semibold'>REGULATORY AUTHORITIES</span> under <span class='font-semibold'>INDIAN LAW</span>. These offices must file <span class='font-semibold'>ANNUAL RETURNS, FINANCIAL STATEMENTS</span>, and other compliance documents with the <span class='font-semibold'>RESPECTIVE REGULATORY BODIES</span> like the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span> or <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span>. These filings ensure <span class='font-semibold'>TRANSPARENCY, COMPLIANCE</span>, and continued <span class='font-semibold'>LEGAL STATUS</span> for foreign offices operating in India.",
+              "image": "/svgs/services/annual_filing_of_liaison_office,_project_office_&_branch_office.svg"
+          },
+          {
+              "title": "Annual Filings Of LLP",
+              "content": "It requires submitting essential documents to the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span> under <span class='font-semibold'>INDIAN LAW</span>. This includes the <span class='font-semibold'>FILING OF ANNUAL RETURNS</span> and <span class='font-semibold'>FINANCIAL STATEMENTS</span> such as <span class='font-semibold'>FORM 11</span> and <span class='font-semibold'>FORM 8</span>. LLPs must ensure timely filings to maintain <span class='font-semibold'>LEGAL COMPLIANCE, TRANSPARENCY</span>, and <span class='font-semibold'>CONTINUED GOOD STANDING</span> with the authorities. Failure to file can result in <span class='font-semibold'>PENALTIES</span> and <span class='font-semibold'>DISSOLUTION</span> of the LLP.",
+              "image": "/svgs/services/annual_filings_of_llp.svg"
+          },
+          {
+              "title": "NPO/Section 8 Company Annual Filing",
+              "content": "It involves submitting required documents to the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span> to maintain compliance with <span class='font-semibold'>INDIAN LAW</span>. This includes filing the <span class='font-semibold'>ANNUAL RETURN</span> and <span class='font-semibold'>FINANCIAL STATEMENTS</span> under <span class='font-semibold'>FORM AOC-4</span> and <span class='font-semibold'>FORM MGT-7</span>. Section 8 companies, being <span class='font-semibold'>NON-PROFIT ORGANIZATIONS</span>, must adhere to these filings to retain their legal status and ensure <span class='font-semibold'>TRANSPARENCY</span> in operations. Non-compliance can lead to <span class='font-semibold'>PENALTIES</span> or <span class='font-semibold'>CANCELLATION</span> of the license.",
+              "image": "/svgs/services/npo_section_8_company_annual_filing.svg"
+          },
+          {
+              "title": "Nidhi Company Annual Filing",
+              "content": "It is mandatory under the <span class='font-semibold'>COMPANIES ACT, 2013</span> and involves submitting documents to the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span>. This includes filing the <span class='font-semibold'>ANNUAL RETURN</span> and <span class='font-semibold'>FINANCIAL STATEMENTS</span> in <span class='font-semibold'>FORM AOC-4</span> and <span class='font-semibold'>FORM MGT-7</span>. Nidhi companies, which promote savings and lending among members, must adhere to these filings to maintain <span class='font-semibold'>LEGAL STATUS</span> and avoid <span class='font-semibold'>PENALTIES</span>. Non-compliance may result in <span class='font-semibold'>SUSPENSION</span> or <span class='font-semibold'>CANCELLATION</span> of operations.",
+              "image": "/svgs/services/nidhi_company_annual_filing.svg"
+          },
+          {
+              "title": "Producer Company Annual Filing",
+              "content": "It is a requirement under the <span class='font-semibold'>COMPANIES ACT, 2013</span> for companies involved in agriculture and farming-related activities. The company must file <span class='font-semibold'>FINANCIAL STATEMENTS</span> and <span class='font-semibold'>ANNUAL RETURNS</span> with the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span> using <span class='font-semibold'>FORM AOC-4</span> and <span class='font-semibold'>FORM MGT-7</span>. This ensures compliance with the <span class='font-semibold'>LEGAL FRAMEWORK</span> and <span class='font-semibold'>REGULATORY STANDARDS</span>. Failure to comply may result in <span class='font-semibold'>PENALTIES</span> or <span class='font-semibold'>CANCELLATION</span> of registration.",
+              "image": "/svgs/services/producer_company_annual_filing.svg"
+          },
+          {
+              "title": "Trust Annual Compliances",
+              "content": "These are mandatory for all registered trusts under the <span class='font-semibold'>TRUST ACT, 1882</span> and other relevant tax laws. The trust must file <span class='font-semibold'>INCOME TAX RETURNS (ITR)</span> if its income exceeds the exemption limit. It should also maintain proper <span class='font-semibold'>BOOKS OF ACCOUNTS</span> and submit them to the <span class='font-semibold'>REGISTERING AUTHORITY</span>. Additionally, trusts must comply with <span class='font-semibold'>GST</span> registration and filings if applicable. Non-compliance can lead to penalties and the loss of tax exemptions.",
+              "image": "/svgs/services/trust_annual_compliances.svg"
+          },
+          {
+              "title": "Striking Off Of Companies",
+              "content": "It refers to the removal of a company’s name from the <span class='font-semibold'>REGISTER OF COMPANIES</span> by the <span class='font-semibold'>MINISTRY OF CORPORATE AFFAIRS (MCA)</span>. This process can be initiated by the company or the MCA if the company is inactive, has failed to file annual returns, or has ceased operations. The company must apply for <span class='font-semibold'>STRIKING OFF</span> under Section 248 of the <span class='font-semibold'>COMPANIES ACT, 2013</span> and settle all dues before the process is completed.",
+              "image": "/svgs/services/striking_off_of_companie.svg"
+          },
+          {
+              "title": "Transfer & Transmission Of Shares",
+              "content": "It refers to the process of transferring ownership of shares from one shareholder to another (<span class='font-semibold'>TRANSFER</span>) or the transfer of shares due to the death or incapacity of the shareholder (<span class='font-semibold'>TRANSMISSION</span>). According to <span class='font-semibold'>INDIAN LAW</span>, <span class='font-semibold'>TRANSFER</span> requires approval from the company and adherence to <span class='font-semibold'>COMPANY’S ARTICLES OF ASSOCIATION</span>. <span class='font-semibold'>TRANSMISSION</span> occurs automatically based on legal documentation like a <span class='font-semibold'>WILL</span> or <span class='font-semibold'>DEATH CERTIFICATE</span>, and involves transferring shares to the legal heir or representative.",
+              "image": "/svgs/services/transfer_&_transmission_of_shares.svg"
+          },
+          {
+              "title": "Increase Of Share Capital Of The Company",
+              "content": "It refers to the process where a company raises its authorized share capital by issuing additional shares. According to <span class='font-semibold'>INDIAN LAW</span>, a company must pass a <span class='font-semibold'>SPECIAL RESOLUTION</span> at the <span class='font-semibold'>GENERAL MEETING</span> and file a <span class='font-semibold'>RESOLUTION</span> with the <span class='font-semibold'>REGISTRAR OF COMPANIES (RoC)</span>. This increase can be done through <span class='font-semibold'>ISSUE OF NEW SHARES</span> or converting <span class='font-semibold'>LOANS INTO EQUITY</span>, complying with applicable regulations under the <span class='font-semibold'>COMPANIES ACT, 2013</span>.",
+              "image": "/svgs/services/increase_of_share_capital_of_the_company.svg"
+          },
+          {
+              "title": "Issuances Of Shares & Debentures Of Companies",
+              "content": "It involves a company raising funds by issuing additional equity shares or debt instruments (debentures). According to <span class='font-semibold'>INDIAN LAW</span>, the issuance of shares must comply with the <span class='font-semibold'>COMPANIES ACT, 2013</span>, and require approval through <span class='font-semibold'>BOARD RESOLUTION</span> or <span class='font-semibold'>SHAREHOLDER RESOLUTION</span>. For <span class='font-semibold'>DEBENTURES</span>, the company must ensure compliance with <span class='font-semibold'>SEBI GUIDELINES</span>. Both require filing with the <span class='font-semibold'>REGISTRAR OF COMPANIES (RoC)</span> and adherence to <span class='font-semibold'>DISCLOSURE NORMS</span>.",
+              "image": "/svgs/services/issuances_of_shares_&_debentures.svg"
+          },
+          {
+              "title": "Winding Up Of Company & LLP",
+              "content": "It refers to the legal process of closing down a business entity. According to <span class='font-semibold'>INDIAN LAW</span>, winding up can be either <span class='font-semibold'>VOLUNTARY</span> or <span class='font-semibold'>COMPULSORY</span>. For a <span class='font-semibold'>COMPANY</span>, it must be done in accordance with the <span class='font-semibold'>COMPANIES ACT, 2013</span>, and for an <span class='font-semibold'>LLP</span>, it follows the <span class='font-semibold'>LLP ACT, 2008</span>. The process involves settling liabilities, liquidating assets, and filing with the <span class='font-semibold'>REGISTRAR OF COMPANIES (RoC)</span> for dissolution.",
+              "image": "/svgs/services/winding_up_of_company.svg"
+          }
+      ]
+  },
+  {
+      "section": "RBI Compliances",
+      "services": [
+          {
+              "title": "Compliances Under Foreign Exchange Management Act",
+              "content": "It governs the regulation of <span class='font-semibold'>FOREIGN EXCHANGE</span> transactions in India. It ensures that all <span class='font-semibold'>INTERNATIONAL TRANSACTIONS</span>, including payments, receipts, and investments, comply with <span class='font-semibold'>FEMA</span> guidelines. The Act covers <span class='font-semibold'>FOREIGN DIRECT INVESTMENT (FDI), FOREIGN INWARD REMITTANCES</span>, and <span class='font-semibold'>EXCHANGE CONTROL</span> provisions. Compliance involves reporting transactions, obtaining necessary approvals, and adhering to the prescribed <span class='font-semibold'>CAPITAL ACCOUNT</span> and <span class='font-semibold'>CURRENT ACCOUNT</span> regulations set by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span>.",
+              "image": "/svgs/services/compliances_under_foreign_exchange_management_act.svg"
+          },
+          {
+              "title": "Submissions Of Annual Activity Certificates Of LO/BO/PO",
+              "content": "It is a mandatory requirement under Indian laws. These offices, established by foreign companies, must submit <span class='font-semibold'>ANNUAL ACTIVITY CERTIFICATES</span> to the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span> to confirm compliance with applicable <span class='font-semibold'>FOREIGN EXCHANGE MANAGEMENT ACT (FEMA)</span> guidelines. The certificate verifies that the office has not engaged in <span class='font-semibold'>PROHIBITED ACTIVITIES</span> and is operating within the scope allowed by the RBI, ensuring regulatory adherence.",
+              "image": "/svgs/services/submissions_of_annual_activity_certificates.svg"
+          },
+          {
+              "title": "Filing Of Application For Foreign Direct Investment With Government Of India",
+              "content": "It is required when foreign investors intend to invest in Indian companies. The application must be submitted through the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span> or the <span class='font-semibold'>MINISTRY OF COMMERCE AND INDUSTRY</span> under the <span class='font-semibold'>FOREIGN EXCHANGE MANAGEMENT ACT (FEMA)</span>. The approval ensures compliance with <span class='font-semibold'>FDI POLICIES</span>, which regulate investment in sectors deemed appropriate and restrict investments in sensitive or prohibited areas, ensuring the economic security of the nation.",
+              "image": "/svgs/services/filing_of_application_for_foreign_direct_investment_with_government_of_india.svg"
+          },
+          {
+              "title": "Various Compliance & Form Filings Under RBI Guidelines",
+              "content": "These are essential for businesses and financial institutions to ensure adherence to <span class='font-semibold'>REGULATORY REQUIREMENTS</span> set by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span>. These include timely submission of various <span class='font-semibold'>FORMS</span>, such as <span class='font-semibold'>FEMA RETURNS, FPI REPORTING</span>, and <span class='font-semibold'>KYC DOCUMENTS</span>, in accordance with <span class='font-semibold'>FEMA</span> and <span class='font-semibold'>RBI NORMS</span>. Compliance helps maintain transparency, prevent illegal transactions, and uphold the integrity of India’s financial system, ensuring smooth operations for businesses and foreign investors.",
+              "image": "/svgs/services/various_compliance_form_filings_under_rbi_guidelines.svg"
+          },
+          {
+              "title": "Secretarial Audit",
+              "content": "It is a mandatory process under <span class='font-semibold'>INDIAN LAW</span>, particularly for listed companies and certain other entities, to ensure compliance with various <span class='font-semibold'>LEGAL REQUIREMENTS</span>. It involves a thorough examination of <span class='font-semibold'>CORPORATE RECORDS, GOVERNANCE PRACTICES</span>, and adherence to <span class='font-semibold'>STATUTORY LAWS</span> such as <span class='font-semibold'>COMPANIES ACT, SEBI REGULATIONS</span>, and <span class='font-semibold'>OTHER APPLICABLE LAWS</span>. Conducting a secretarial audit helps identify any non-compliance or potential legal risks, ensuring the company’s operations align with legal standards and corporate governance best practices.",
+              "image": "/svgs/services/secretarial_audit.svg"
+          }
+      ]
+  },
+  {
+      "section": "Investment & Growth Advisory",
+      "services": [
+          {
+              "title": "Investment Planning",
+              "content": "It is a strategic process that helps individuals and businesses optimize their <span class='font-semibold'>FINANCIAL PORTFOLIOS</span> to achieve long-term goals. It includes assessing <span class='font-semibold'>RISK TOLERANCE</span>, determining <span class='font-semibold'>ASSET ALLOCATION</span>, and selecting the right <span class='font-semibold'>INVESTMENT VEHICLES</span> such as stocks, bonds, or mutual funds. Investment planning also considers <span class='font-semibold'>TAX EFFICIENCY</span> and ensures compliance with <span class='font-semibold'>INDIAN REGULATIONS</span>. Professional advice in investment planning is crucial for <span class='font-semibold'>MAXIMIZING RETURNS</span> and ensuring financial <span class='font-semibold'>SECURITY</span>.",
+              "image": "/svgs/services/investment_planning.svg"
+          },
+          {
+              "title": "Wealth Management",
+              "content": "It is a comprehensive service that involves managing an individual's or family's <span class='font-semibold'>FINANCIAL ASSETS</span>, focusing on increasing wealth over time. It includes <span class='font-semibold'>INVESTMENT STRATEGIES, TAX PLANNING, ESTATE PLANNING</span>, and <span class='font-semibold'>RETIREMENT PLANNING</span>. Wealth managers tailor solutions to meet <span class='font-semibold'>LONG-TERM FINANCIAL GOALS</span> while ensuring compliance with <span class='font-semibold'>INDIAN TAX LAWS</span> and <span class='font-semibold'>REGULATIONS</span>. A holistic approach to <span class='font-semibold'>RISK MANAGEMENT</span> and asset growth ensures <span class='font-semibold'>SECURITY</span> for future generations.",
+              "image": "/svgs/services/wealth_management.svg"
+          },
+          {
+              "title": "IPO Listing",
+              "content": "It refers to the process of a company offering its shares to the public for the first time through the <span class='font-semibold'>STOCK EXCHANGE</span>. The company must comply with <span class='font-semibold'>SECURITIES AND EXCHANGE BOARD OF INDIA (SEBI)</span> regulations and undergo a detailed process of <span class='font-semibold'>DUE DILIGENCE, DOCUMENTATION</span>, and <span class='font-semibold'>VALUATION</span>. The listing provides a platform for investors to buy and sell shares, offering the company <span class='font-semibold'>ACCESS TO CAPITAL</span> for expansion and growth, while ensuring <span class='font-semibold'>TRANSPARENCY</span> and <span class='font-semibold'>REGULATORY COMPLIANCE</span>.",
+              "image": "/svgs/services/ipo_listing.svg"
+          },
+          {
+              "title": "Share & Other Valuation",
+              "content": "It is the process of determining the <span class='font-semibold'>MARKET VALUE</span> or <span class='font-semibold'>FAIR VALUE</span> of a company’s shares, assets, or liabilities, based on various financial indicators and market conditions. It is essential for <span class='font-semibold'>M&A (Mergers and Acquisitions), INVESTMENT DECISIONS</span>, and <span class='font-semibold'>TAX PLANNING</span>. In India, valuations must comply with the <span class='font-semibold'>INCOME TAX ACT, SEBI GUIDELINES</span>, and other relevant <span class='font-semibold'>REGULATORY NORMS</span> to ensure accuracy, transparency, and fairness in business transactions.",
+              "image": "/svgs/services/share_&_other_valuation.svg"
+          },
+          {
+              "title": "Fund Raising",
+              "content": "It refers to the process of obtaining capital for a business or project through various means such as <span class='font-semibold'>EQUITY, DEBT</span>, or <span class='font-semibold'>CROWDFUNDING</span>. In India, businesses can raise funds through <span class='font-semibold'>PUBLIC ISSUES, PRIVATE PLACEMENTS</span>, or <span class='font-semibold'>VENTURE CAPITAL</span>. It must comply with the <span class='font-semibold'>COMPANIES ACT, SEBI REGULATIONS</span>, and other <span class='font-semibold'>FINANCIAL LAWS</span>. Fundraising is crucial for expansion, innovation, or managing business operations, and requires adherence to <span class='font-semibold'>REGULATORY</span> and <span class='font-semibold'>LEGAL REQUIREMENTS</span>.",
+              "image": "/svgs/services/fund_raising.svg"
+          },
+          {
+              "title": "Future Growth Analysis",
+              "content": "It involves assessing a company's potential for expansion and profitability based on market trends, <span class='font-semibold'>FINANCIAL PERFORMANCE</span>, and <span class='font-semibold'>INDUSTRY OUTLOOK</span>. In India, this analysis often considers <span class='font-semibold'>GDP GROWTH, REGULATORY ENVIRONMENTS</span>, and <span class='font-semibold'>TECHNOLOGICAL ADVANCEMENTS</span>. It helps businesses, investors, and stakeholders make informed decisions about strategic planning and investments. Accurate growth analysis requires considering <span class='font-semibold'>RISK FACTORS, MARKET DEMAND</span>, and <span class='font-semibold'>COMPETITIVE LANDSCAPE</span>, ensuring long-term success.",
+              "image": "/svgs/services/future_growth_analysis.svg"
+          },
+          {
+              "title": "Transformational Growth",
+              "content": "It refers to a significant shift in a company's operations, culture, and strategy to achieve substantial progress. In India, businesses aiming for transformational growth focus on <span class='font-semibold'>INNOVATION, TECHNOLOGY ADOPTION</span>, and <span class='font-semibold'>SCALABILITY</span> to enhance competitiveness. This growth often requires <span class='font-semibold'>RESTRUCTURING</span>, adapting to <span class='font-semibold'>MARKET TRENDS</span>, and embracing <span class='font-semibold'>DIGITALIZATION</span>. It involves transforming traditional business models to meet future demands, improving <span class='font-semibold'>EFFICIENCY</span>, and achieving long-term <span class='font-semibold'>SUSTAINABILITY</span> in an ever-evolving market.",
+              "image": "/svgs/services/transformational_growth.svg"
+          },
+          {
+              "title": "Brand And Demand-Solutions",
+              "content": "It focuses on creating strong, recognizable <span class='font-semibold'>BRANDS</span> while driving market <span class='font-semibold'>DEMAND</span> through strategic marketing. In India, businesses use these solutions to enhance their <span class='font-semibold'>BRAND IDENTITY</span>, reach target customers, and increase sales. This involves <span class='font-semibold'>MARKETING CAMPAIGNS, ADVERTISING, PUBLIC RELATIONS</span>, and leveraging <span class='font-semibold'>SOCIAL MEDIA</span> to build a loyal customer base. It is essential for businesses to stay competitive, create <span class='font-semibold'>VALUE</span>, and respond to changing consumer needs in the <span class='font-semibold'>GLOBAL MARKET</span>.",
+              "image": "/svgs/services/brand_and_demand-solutions.svg"
+          }
+      ]
+  },
+  {
+      "section": "Valuation",
+      "services": [
+          {
+              "title": "Valuation Services",
+              "content": "It involves determining the <span class='font-semibold'>FINANCIAL VALUE</span> of a business, asset, or investment. In India, these services are essential for <span class='font-semibold'>MERGERS, ACQUISITIONS, FUND RAISING</span>, and <span class='font-semibold'>TAX COMPLIANCE</span>. Valuation experts analyze <span class='font-semibold'>FINANCIAL PERFORMANCE, MARKET CONDITIONS</span>, and <span class='font-semibold'>INDUSTRY TRENDS</span> to assess the worth. These services help businesses make informed decisions, ensuring <span class='font-semibold'>REGULATORY COMPLIANCE</span> and proper <span class='font-semibold'>TAX REPORTING</span> as per <span class='font-semibold'>INDIAN ACCOUNTING STANDARDS</span> and <span class='font-semibold'>SEBI GUIDELINES</span>.",
+              "image": "/svgs/services/valuation_services.svg"
+          },
+          {
+              "title": "Business Valuation Services",
+              "content": "These are critical for determining the <span class='font-semibold'>WORTH</span> of a company, whether for <span class='font-semibold'>MERGERS, ACQUISITIONS, TAX COMPLIANCE</span>, or <span class='font-semibold'>FUND RAISING</span>. In India, these services adhere to <span class='font-semibold'>INDIAN ACCOUNTING STANDARDS (IND AS)</span> and <span class='font-semibold'>SEBI GUIDELINES</span>. The valuation process involves a detailed assessment of <span class='font-semibold'>FINANCIAL PERFORMANCE, ASSETS, LIABILITIES</span>, and <span class='font-semibold'>MARKET CONDITIONS</span> to ensure fair pricing and <span class='font-semibold'>REGULATORY COMPLIANCE</span>. These services are essential for strategic decision-making and risk management.",
+              "image": "/svgs/services/business_valuation_services.svg"
+          }
+      ]
+  },
+  {
+      "section": "NBFC Compliance",
+      "services": [
+          {
+              "title": "Compliance & Funding In NBFC",
+              "content": "It involves ensuring that <span class='font-semibold'>NON-BANKING FINANCIAL COMPANIES</span> meet the <span class='font-semibold'>REGULATORY REQUIREMENTS</span> set by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span>. This includes compliance with <span class='font-semibold'>LICENSING, CAPITAL ADEQUACY</span>, and <span class='font-semibold'>FINANCIAL DISCLOSURE</span> norms. For funding, NBFCs raise capital through <span class='font-semibold'>EQUITY, DEBENTURES</span>, and <span class='font-semibold'>BANK LOANS</span>. Proper compliance ensures smooth operations, while effective funding strategies help NBFCs expand their financial services and maintain growth in the competitive market.",
+              "image": "/svgs/services/compliance_&_funding_in_nbfc.svg"
+          },
+          {
+              "title": "Appeal Against NBFC Registration Cancellation",
+              "content": "It allows a <span class='font-semibold'>NON-BANKING FINANCIAL COMPANY</span> to challenge the <span class='font-semibold'>CANCELLATION</span> of its registration by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span>. If the RBI cancels the registration due to non-compliance with <span class='font-semibold'>REGULATORY NORMS</span>, the NBFC has the right to file an <span class='font-semibold'>APPEAL</span>. The process involves submitting a detailed <span class='font-semibold'>REVIEW</span> and <span class='font-semibold'>EXPLANATION</span> of the company's actions to demonstrate its commitment to <span class='font-semibold'>COMPLIANCE</span> and request the <span class='font-semibold'>REVOCATION</span> of the cancellation order.",
+              "image": "/svgs/services/appeal_against_nbfc_registration_cancellation.svg"
+          },
+          {
+              "title": "Financial Intelligence Unit India",
+              "content": "It is the national agency responsible for receiving, analyzing, and disseminating <span class='font-semibold'>FINANCIAL INTELLIGENCE</span> related to <span class='font-semibold'>MONEY LAUNDERING</span> and <span class='font-semibold'>TERRORIST FINANCING</span> in India. It operates under the <span class='font-semibold'>MINISTRY OF FINANCE</span> and ensures compliance with the <span class='font-semibold'>PREVENTION OF MONEY LAUNDERING ACT (PMLA)</span>. FIU-IND plays a key role in detecting suspicious financial activities, enforcing <span class='font-semibold'>ANTI-MONEY LAUNDERING (AML)</span> regulations, and promoting <span class='font-semibold'>SECURITY</span> and <span class='font-semibold'>INTEGRITY</span> of the financial system.",
+              "image": "/svgs/services/financial_intelligence_unit_india.svg"
+          },
+          {
+              "title": "Central KYC Registry In India",
+              "content": "It is a centralized database set up by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span> to store <span class='font-semibold'>KNOW YOUR CUSTOMER (KYC)</span> details of individuals and entities. This registry facilitates a streamlined and uniform approach for <span class='font-semibold'>CUSTOMER IDENTIFICATION</span> across financial institutions, promoting <span class='font-semibold'>ANTI-MONEY LAUNDERING (AML)</span> and <span class='font-semibold'>COMBATING TERRORIST FINANCING (CTF)</span>. It helps reduce the need for multiple KYC submissions by customers, ensuring <span class='font-semibold'>EFFICIENCY</span> and <span class='font-semibold'>SECURITY</span> in the financial system.",
+              "image": "/svgs/services/central_kyc_registry_in_india.svg"
+          },
+          {
+              "title": "Money Changer Compliance",
+              "content": "It refers to the regulatory requirements set by the <span class='font-semibold'>RESERVE BANK OF INDIA (RBI)</span> for individuals and entities operating in the foreign exchange business. They must adhere to <span class='font-semibold'>ANTI-MONEY LAUNDERING (AML)</span> and <span class='font-semibold'>COMBATING TERRORIST FINANCING (CTF)</span> guidelines. Money changers must maintain proper <span class='font-semibold'>RECORDS</span>, conduct <span class='font-semibold'>DUE DILIGENCE</span> of customers, and comply with <span class='font-semibold'>KYC</span> norms to prevent misuse of foreign exchange transactions for illegal activities.",
+              "image": "/svgs/services/money_changer_compliance.svg"
+          }
+      ]
+  },
+  {
+      "section": "Industry Audit",
+      "services": [
+          {
+              "title": "Income Tax Audit",
+              "content": "It is a mandatory process under the <span class='font-semibold'>INCOME TAX ACT</span> in India for businesses whose turnover exceeds specified limits. It involves the examination of a company’s <span class='font-semibold'>FINANCIAL STATEMENTS</span> and <span class='font-semibold'>TAX RETURNS</span> to ensure accuracy and compliance with tax laws. The audit verifies the <span class='font-semibold'>INCOME, EXPENDITURES</span>, and <span class='font-semibold'>TAX DEDUCTIONS</span> claimed by the business, helping to assess whether the tax liability is calculated correctly and in accordance with the law.",
+              "image": "/svgs/services/income_tax_audit.svg"
+          },
+          {
+              "title": "Secretarial Audit In India",
+              "content": "It is a compliance check mandated by the <span class='font-semibold'>COMPANIES ACT, 2013</span> for certain types of companies. It involves reviewing a company’s adherence to <span class='font-semibold'>LEGAL and REGULATORY REQUIREMENTS</span>, including governance, corporate laws, and other statutory regulations. Conducted by a <span class='font-semibold'>COMPANY SECRETARY</span>, the audit ensures that the company’s actions are in accordance with the law, and helps in identifying risks, inefficiencies, and areas for improvement in <span class='font-semibold'>CORPORATE GOVERNANCE</span>.",
+              "image": "/svgs/services/secretarial_audit_india.svg"
+          },
+          {
+              "title": "Public Limited Audit",
+              "content": "It refers to the mandatory audit conducted for <span class='font-semibold'>PUBLIC LIMITED COMPANIES</span> as per the <span class='font-semibold'>COMPANIES ACT, 2013</span>. This audit ensures the company’s <span class='font-semibold'>FINANCIAL STATEMENTS</span> are accurate, transparent, and in compliance with <span class='font-semibold'>ACCOUNTING STANDARDS</span> and <span class='font-semibold'>TAX REGULATIONS</span>. Auditors assess financial records, internal controls, and adherence to corporate laws, providing a true and fair view of the company's financial health to stakeholders, including <span class='font-semibold'>INVESTORS, SHAREHOLDERS</span>, and regulatory bodies.",
+              "image": "/svgs/services/public_limited_audit.svg"
+          },
+          {
+              "title": "Private Limited Audit",
+              "content": "It is a statutory requirement for <span class='font-semibold'>PRIVATE LIMITED COMPANIES</span> under the <span class='font-semibold'>COMPANIES ACT, 2013</span>, if they meet certain financial thresholds. The audit ensures that the company's <span class='font-semibold'>FINANCIAL STATEMENTS</span> are in compliance with <span class='font-semibold'>ACCOUNTING STANDARDS</span> and <span class='font-semibold'>TAX REGULATIONS</span>. Auditors verify the <span class='font-semibold'>ACCURACY</span> of financial records, assess internal controls, and ensure compliance with applicable corporate laws, offering transparency and trust for <span class='font-semibold'>SHAREHOLDERS</span> and other stakeholders.",
+              "image": "/svgs/services/private_limited_audit.svg"
+          },
+          {
+              "title": "Financial Statement Audit",
+              "content": "It is an independent examination of a company’s <span class='font-semibold'>FINANCIAL RECORDS</span> to ensure compliance with <span class='font-semibold'>ACCOUNTING STANDARDS</span> and <span class='font-semibold'>TAX LAWS</span>. Conducted by a qualified <span class='font-semibold'>CHARTERED ACCOUNTANT</span>, this audit verifies the <span class='font-semibold'>ACCURACY</span> and <span class='font-semibold'>RELIABILITY</span> of financial statements, including the balance sheet, profit and loss account, and cash flow statement. It ensures transparency, builds <span class='font-semibold'>CREDIBILITY</span> with stakeholders, and helps detect any <span class='font-semibold'>FINANCIAL IRREGULARITIES</span>.",
+              "image": "/svgs/services/financial_statement_audit.svg"
+          },
+          {
+              "title": "NGO Audit",
+              "content": "It is a comprehensive review of an NGO’S <span class='font-semibold'>FINANCIAL RECORDS</span> to ensure compliance with relevant laws, including <span class='font-semibold'>TAXATION</span> and <span class='font-semibold'>NON-PROFIT REGULATIONS</span>. Conducted by a licensed <span class='font-semibold'>CHARTERED ACCOUNTANT</span>, this audit verifies the <span class='font-semibold'>TRANSPARENCY</span> and <span class='font-semibold'>ACCURACY</span> of financial statements and ensures that funds are being utilized appropriately according to the organization’s mission. It also helps maintain <span class='font-semibold'>CREDIBILITY</span>, build <span class='font-semibold'>TRUST</span>, and improve <span class='font-semibold'>ACCOUNTABILITY</span> to donors and regulatory bodies.",
+              "image": "/svgs/services/ngo_audit.svg"
+          },
+          {
+              "title": "Advertising Audit",
+              "content": "It is a thorough evaluation of an organization's <span class='font-semibold'>ADVERTISING CAMPAIGNS</span> to assess their <span class='font-semibold'>EFFECTIVENESS, REACH</span>, and <span class='font-semibold'>RETURN ON INVESTMENT (ROI)</span>. It ensures compliance with <span class='font-semibold'>ADVERTISING STANDARDS</span> and <span class='font-semibold'>REGULATIONS</span> in India, such as the <span class='font-semibold'>ADVERTISING STANDARDS COUNCIL OF INDIA (ASCI)</span> guidelines. The audit analyzes the <span class='font-semibold'>IMPACT, TARGET AUDIENCE ENGAGEMENT</span>, and <span class='font-semibold'>BRAND ALIGNMENT</span> of advertisements, providing valuable insights to optimize future marketing strategies and maximize brand visibility.",
+              "image": "/svgs/services/advertising_audit.svg"
+          },
+          {
+              "title": "Media Audit",
+              "content": "It involves evaluating the effectiveness and efficiency of a company’s <span class='font-semibold'>MEDIA STRATEGY</span> across different platforms, including <span class='font-semibold'>PRINT, DIGITAL, TV, and RADIO</span>. It helps assess <span class='font-semibold'>MEDIA SPEND, REACH, ENGAGEMENT</span>, and <span class='font-semibold'>RETURN ON INVESTMENT (ROI)</span>. In India, it ensures compliance with <span class='font-semibold'>ADVERTISING STANDARDS, REGULATORY REQUIREMENTS</span>, and <span class='font-semibold'>CODES OF PRACTICE</span>. The audit provides actionable insights to optimize media planning and enhance brand visibility while ensuring cost-efficiency.",
+              "image": "/svgs/services/media_audit.svg"
+          },
+          {
+              "title": "Cinema Audit",
+              "content": "It evaluates the performance of films in cinemas, analyzing factors like <span class='font-semibold'>TICKET SALES, SCREENING TIMES, AUDIENCE ENGAGEMENT</span>, and <span class='font-semibold'>REVENUE GENERATION</span>. It ensures that cinemas comply with <span class='font-semibold'>REGULATORY GUIDELINES</span> under Indian law, such as <span class='font-semibold'>CINEMA EXHIBITION LAWS</span> and <span class='font-semibold'>COPYRIGHT REGULATIONS</span>. The audit helps improve film distribution strategies, monitor box office performance, and ensure accurate reporting of <span class='font-semibold'>REVENUE SHARING</span> between producers and exhibitors.",
+              "image": "/svgs/services/cinema_audit.svg"
+          }
+      ]
+  }
+]

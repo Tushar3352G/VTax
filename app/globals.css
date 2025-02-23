@@ -1,21 +1,166 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --customShadow: 0px_0px_24px_rgba (0, 0, 0, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@theme {
+  --color-blue-50: #f1f9fe;
+  --color-blue-100: #e3f0fb;
+  --color-blue-200: #c0e2f7;
+  --color-blue-300: #88ccf1;
+  --color-blue-400: #34a9e5;
+  --color-blue-500: #2198d6;
+  --color-blue-600: #137ab6;
+  --color-blue-700: #106194;
+  --color-blue-800: #12537a;
+  --color-blue-900: #144566;
+  --color-blue-950: #0e2c43;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+body,
+html {
+  width: 100%;
+  font-family: inter_tight;
 }
+
+@font-face {
+  font-family: "inter_tight";
+  src: local("Inter Tight Medium"), local("InterTight-Medium"),
+    url("../public/fonts/InterTight-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter_tight";
+  src: local("Inter Tight Bold"), local("InterTight-Bold"),
+    url("../public/fonts/InterTight-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter_tight";
+  src: local("Inter Tight Regular"), local("InterTight-Regular"),
+    url("../public/fonts/InterTight-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "inter_tight";
+  src: local("Inter Tight SemiBold"), local("InterTight-SemiBold"),
+    url("../public/fonts/InterTight-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url("../public/fonts/Poppins-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+    url("../public/fonts/Poppins-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("../public/fonts/Poppins-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("../public/fonts/Poppins-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Allura";
+  src: local("Allura Regular"), local("Allura-Regular"),
+    url("../public/fonts/Allura-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.main-heading {
+  font-size: clamp(30px, 3.125vw, 60px);
+  @apply font-normal;
+}
+
+.main-heading span {
+  font-family: Allura;
+  font-size: clamp(38px, 4.531vw, 87px);
+  @apply text-blue-700;
+}
+
+.main-heading span.white {
+  @apply text-white;
+}
+
+.main-paragraph {
+  font-size: clamp(16px, 1.25vw, 24px);
+}
+
+nav a {
+  font-size: clamp(16px, 1vw, 18px);
+  @apply font-medium;
+}
+
+.hero video {
+  height: clamp(600px, 50vw, 700px);
+}
+
+.section-heading {
+  font-size: clamp(24px, 2.5vw, 48px);
+  @apply font-bold;
+}
+
+.sub-heading {
+  font-size: clamp(19.5px, 1.25vw, 24px);
+  line-height: 1.1;
+  @apply font-medium;
+}
+
+.paragraph {
+  font-size: clamp(14px, 0.888vw, 16px);
+  font-family: "Poppins";
+  font-weight: normal;
+}
+
+.button-primary {
+  font-family: Poppins;
+  font-size: clamp(16px, 1vw, 18px);
+  @apply font-bold capitalize bg-blue-700 text-white px-8 py-3 block w-fit rounded-lg md:rounded-xl cursor-pointer hover:bg-blue-600 ease-linear duration-300;
+}
+
+.business {
+  background-image: url("/images/section-pattern.jpg");
+  background-color: #f4f4f5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
