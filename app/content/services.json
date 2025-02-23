@@ -65,7 +65,7 @@
           {
               "title": "E-Commerce Business (POP UP)",
               "content": "A POP-UP E-Commerce Business is a temporary online store used to promote specific products, seasonal items, or events. Key features include a <span class='font-semibold'>TEMPORARY SETUP</span> for short durations, hosted on platforms like Shopify or WooCommerce, and requires <span class='font-semibold'>BUSINESS REGISTRATION</span>. It is subject to <span class='font-semibold'>TAXATION & COMPLIANCE</span> with GST registration (if turnover exceeds ₹40 lakh) and income tax filings. A <span class='font-semibold'>PAYMENT GATEWAY</span> like Razorpay or Paytm is necessary for secure transactions.",
-              "image": "/svgs/services/partnership_firm.svg"
+              "image": "/svgs/services/ecommerce-business.svg"
           }
       ]
   },
