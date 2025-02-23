@@ -88,7 +88,7 @@ const Carousel = ({
                   <h3 className="sub-heading">{data.section || data.title}</h3>
 
                   <div className="relative flex items-center justify-center shrink-0 size-11 sm:size-12 lg:size-15">
-                    <Image
+                    <img
                       className="z-20 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[53px] h-[60px]"
                       src={data.image || data.services[0].image}
                       width={0}
