@@ -94,7 +94,6 @@ const Carousel = ({
                       width={0}
                       height={0}
                       alt="icon"
-                      loading="lazy"
                     />
                     <span
                       className={`w-full h-full inline-block rounded-full ${
