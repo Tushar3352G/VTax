@@ -51,15 +51,15 @@ export const handleContactForm = (e, selectedService) => {
         comment: ${comment}
     `,
   };
-
+  lastSubmittedTime = currentTime;
   emailjs
-    .send("service_64qdtre", "template_cl27mrs", emailData, "399NBdRkNQmXudBV9")
+    .send("service_3oztlvy", "template_dp9ft8z", emailData, "IEYz3Q6W1w-W9l0cJ")
     .then((response) => {
       toast.success("Thank you for your submission!");
       console.log("Email sent successfully!", response.status, response.text);
       localStorage.setItem("service", "");
       e.target.reset();
-      lastSubmittedTime = currentTime;
+      lastSubmittedTime = 0;
     })
     .catch((error) => {
       toast.error("Failed to send message. Please try again later.");
@@ -69,6 +69,7 @@ export const handleContactForm = (e, selectedService) => {
 
 export const handleCareerForm = (e) => {
   e.preventDefault();
+
   const currentTime = Date.now();
   if (currentTime - lastSubmittedTime < RATE_LIMIT) {
     return toast.error("Please wait a moment before submitting again.");
@@ -116,14 +117,14 @@ export const handleCareerForm = (e) => {
         Comment: ${comment}
     `,
   };
-
+  lastSubmittedTime = currentTime;
   emailjs
-    .send("service_64qdtre", "template_cl27mrs", emailData, "399NBdRkNQmXudBV9")
+    .send("service_xo5wvvq", "template_1wghvrf", emailData, "dnAEXfKgKY1A-ns9F")
     .then((response) => {
       toast.success("Thank you for your submission!");
       console.log("Email sent successfully!", response.status, response.text);
       e.target.reset();
-      lastSubmittedTime = currentTime;
+      lastSubmittedTime = 0;
     })
     .catch((error) => {
       toast.error("Failed to send message. Please try again later.");

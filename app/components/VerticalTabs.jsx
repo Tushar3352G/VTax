@@ -105,7 +105,7 @@ const VerticalTabs = ({ onServiceSelect }) => {
       )}
 
       {showContentBox && activeTab && (
-        <div className="fixed inset-0 z-60 bg-zinc-900/20 p-6 grid place-items-center">
+        <div className="fixed inset-0 z-60 bg-zinc-900/20 p-2 md:p-6 grid place-items-center">
           <div className="w-full md:w-[30rem] bg-white rounded-xl overflow-y-scroll h-[40rem] md:h-[45rem]">
             <div className="w-full bg-white sticky mb-5 top-0 px-4 py-2">
               <span

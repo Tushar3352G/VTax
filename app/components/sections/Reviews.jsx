@@ -8,7 +8,7 @@ export const Reviews = () => {
       <div className="w-[90%] mb-5 md:mb-8 mx-auto">
         <SectionHeading
           contain="sm:w-[42vw] lg:w-[40vw]"
-          text="REAL STORIES, REAL SUCCESS Hear From Our Happy Clients"
+          text='REAL STORIES, REAL SUCCESS "Hear From Our Happy Clients"'
         />
       </div>
       <Carousel header={false} data={data} review={true} />

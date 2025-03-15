@@ -9,7 +9,7 @@ export const Team = () => {
         <div className="w-full md:w-3/5 mt-8 md:mt-0">
           <SectionHeading
             contain="sm:w-[42vw] lg:w-[40vw]"
-            text="A Team Of Expert Minds Driving Your Business Success"
+            text="A Team Of Expert Minds Driving Your Business Success!"
           />
           <p className="paragraph mt-5 md:w-[40vw]">
             Our team of seasoned Chartered Accountants, Company Secretaries &
@@ -45,8 +45,8 @@ export const Team = () => {
                   <Image
                     className="w-full h-full rounded-lg md:rounded-xl overflow-hidden"
                     src={url}
-                    width={288}
-                    height={302}
+                    width={150}
+                    height={150}
                     alt="memberOne"
                   />
                 </div>

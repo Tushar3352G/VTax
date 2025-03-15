@@ -11,7 +11,7 @@ export const generateMetadata = () => {
   return {
     title: "VTAX - Best Tax Solutions & Financial Services",
     description: "VTAX provides expert tax solutions, financial planning, and business advisory services.",
-    keywords: "tax solutions, financial services, business advisory, VTAX",
+    keywords: "tax solutions, financial services, business advisory, VTAX, VTAXPRO",
   };
 };
 

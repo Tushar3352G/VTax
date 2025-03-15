@@ -57,7 +57,7 @@ const Careers = () => {
         required: true,
       },
       {
-        input: "datetime-local",
+        input: "text",
         holdertext: "Date Of Birth*",
         name: "dateofbirth",
         required: true,

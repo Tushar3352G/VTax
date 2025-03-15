@@ -14,19 +14,19 @@ export const generateMetadata = () => {
 const About = () => {
   const data = [
     {
-      heading: "Who We Are? <br /> Your Growth, Our Expertise",
+      heading: 'Who We Are? <br /> - "Your Growth, Our Expertise"',
       para: `At VTAX Professionals, we are more than just consultants – we are your trusted business growth partners. With a team of highly skilled Chartered Accountants, Company Secretaries and Legal Experts, we specialize in Startups, Corporate Laws, Taxation (Direct & Indirect), GST, International Taxation, Import-Export, Risk Advisory and Compliance. Our mission is to provide tailored financial, legal and business management services that help businesses of all sizes stay compliant, reduce risks and achieve sustainable growth. Whether you're launching a startup or managing a large corporation, we ensure seamless financial and regulatory solutions, allowing you to focus on scaling your business while we handle the complexities.`,
     },
     {
-      heading: "Why Choose VTAX? <br /> Where Expertise Meets Excellence",
+      heading: 'Why Choose VTAX? <br /> - "Where Expertise Meets Excellence"',
       para: `At VTAX Professionals, we don’t just offer services—we build lasting relationships with our clients. Our team of industry experts and financial strategists ensures that every business receives accurate, timely and reliable support in areas like taxation, compliance, financial planning and risk advisory. We believe in delivering excellence with precision, ensuring that your business stays ahead of regulatory requirements while maximizing profitability. With a customer-first approach, we are here to simplify complex business processes, eliminate operational stress and provide actionable insights that lead to long-term success. When you choose VTAX, you choose a dedicated partner committed to your business’s growth and financial well-being.`,
     },
     {
-      heading: "Our Vision <br /> Redefining Success, One Business At A Time",
+      heading: 'Our Vision <br /> - "Redefining Success, One Business At A Time"',
       para: `Our vision is to revolutionize the way businesses handle their financial, taxation and corporate law needs. We aim to be a trusted one-stop solution, providing end-to-end consulting services that cater to businesses of all sizes. At VTAX, we believe in integrity, innovation and continuous learning, ensuring that our clients receive cutting-edge solutions aligned with the latest market trends and regulatory changes. Through strategic financial management, ethical business practices and customized solutions, we empower businesses to navigate challenges, seize opportunities, and achieve long-term stability. Our goal is to be universally recognized as a leading corporate consulting firm, consistently delivering excellence and value to our clients.`,
     },
     {
-      heading: "Our Mission <br /> Your Business, Our Commitment",
+      heading: 'Our Mission <br /> - "Your Business, Our Commitment"',
       para: `At VTAX Professionals, our mission is to simplify business complexities and provide businesses with the right financial and legal guidance to ensure seamless operations. We are committed to delivering high-quality, cost-effective and globally compliant solutions that enhance operational efficiency, reduce risks and drive business success. By combining global expertise with deep local market knowledge, we help businesses stay competitive, compliant and financially strong. Our approach is driven by transparency, customer-centricity and ethical business values, ensuring that every client receives personalized solutions that align with their unique business needs. With VTAX by your side, you can focus on growth while we take care of the rest.`,
     },
   ];

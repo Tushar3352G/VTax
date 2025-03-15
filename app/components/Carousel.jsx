@@ -21,6 +21,7 @@ const Carousel = ({
   const [maxHeight, setMaxHeight] = useState(0);
   const slidesRef = useRef([]);
 
+
   useEffect(() => {
     if (slidesRef.current.length > 0) {
       const maxH = Math.max(
@@ -69,7 +70,7 @@ const Carousel = ({
         <SwiperSlide
           onClick={() => (handle ? handleLocal(data) : undefined)}
           key={i}
-          className={`shadow-[0px_0px_24px_rgba(0,0,0,0.1)] bg-transparent rounded-lg md:rounded-xl overflow-hidden ${handle ? 'cursor-pointer' : 'cursor-grab'}`}
+          className={`shadow-[0px_0px_24px_rgba(0,0,0,0.1)] bg-transparent rounded-lg md:rounded-xl overflow-hidden ${handle ? 'cursor-pointer active:cursor-grabbing' : 'cursor-grab active:cursor-grabbing'}`}
         >
           <div
             ref={(el) => (slidesRef.current[i] = el)}
@@ -88,7 +89,7 @@ const Carousel = ({
                   <h3 className="sub-heading">{data.section || data.title}</h3>
 
                   <div className="relative flex items-center justify-center shrink-0 size-11 sm:size-12 lg:size-15">
-                    <img
+                    <Image
                       className="z-20 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[53px] h-[60px]"
                       src={data.image || data.services[0].image}
                       width={0}
